@@ -1,5 +1,16 @@
 # Getting Started with Create React App
 
+### 'Project's purpose'
+- Create a calories' tracker web project that allow Villanova students to keep track of their daily calories and macros intake
+- Students can access their previous information through the app's dropdown menu
+- Learning a great deal of React.js, Javascript, CSS, and how to store data using Firebase. Great for beginners in web development
+
+### `To Run The Project`
+- npm install
+- npm install firebase
+- npm start
+
+
 ## Available Scripts
 
 In the project directory, you can run:
