@@ -1,0 +1,146 @@
+.App h3, .App h1{
+  color: rgba(255, 255, 255, 0.973);
+  text-align: center;
+  background-color: rgb(8, 29, 116);
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.Menu button {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.973);
+  background-color:rgb(171, 202, 236);
+  font-weight: 530;
+}
+.Menu {
+  overflow-y: scroll;
+  height: 150px;
+
+}
+
+.foodName{
+  text-align: left;
+  padding: 0 0 0 23%;
+}
+table {
+  width:94%;
+  text-align: center;
+}
+.tableContainer {
+  min-height: 500px;
+}
+
+.total {
+  display:inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  /* color: rgb(253, 194, 43); */
+}
+
+
+.total input {
+  border-radius: 7px;
+  background-color: rgb(171, 202, 236);
+}
+.total ul li {
+  display: inline-flex;
+  margin: 0 10px 0 10px;
+  font-weight: 600;
+}
+
+.your-Cart {
+  color: rgb(253, 134, 43);
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(8, 29, 116);
+  border: 4px solid rgb(0, 0, 0);
+  width:100%;
+  /* border-radius: 20px; */
+  min-height: 200px;
+  height: 220px;
+}
+
+.your-Cart h3 {
+  color:rgb(253, 134, 43);
+  padding-bottom: 0px;
+
+}
+.your-Cart-container {
+  height: 100px;
+  overflow-y: scroll;
+}
+
+
+.tableContainer {
+  height: 50%;
+  overflow-y: auto;
+}
+
+.save-Button {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.973);
+  background-color:rgb(171, 202, 236);
+  font-weight: 600;
+  height:30px;
+  display: block;
+  margin: auto;
+}
+
+.heading {
+  display: flex;
+  background-color: rgb(8, 29, 116);
+}
+.title {
+  width: 100%;
+}
+
+.overlay {
+  height: 100%;
+  width: 33%;
+  top: 20px;
+  position: fixed;
+  z-index: 500000;
+  right: 0;
+  background-color: rgb(8, 29, 116);
+  color: white;
+  transition: 2.5s;
+  margin-top: 85px;
+}
+
+.overlay-content {
+  position: relative;
+  text-align: center;
+  
+}
+
+.overlay {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.973);
+  display: block;
+  transition: 1.3s;
+}
+.overlay-content th, .overlay-content td {
+  padding: 5px 35px 0px 5px;
+}
+.overlay th:hover, .overlay th:focus, .overlay td:hover, .overlay td:focus {
+  color: yellow ;
+}
+
+.overlay .closebtn {
+  font-size: 30px;
+  color: white;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
